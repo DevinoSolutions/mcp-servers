@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "voicelabs": {
+      "url": "https://app.voicelabs.now/api/mcp"
+    }
+  }
+}

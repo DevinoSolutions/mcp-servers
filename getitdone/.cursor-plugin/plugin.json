@@ -1,0 +1,21 @@
+{
+  "name": "getitdone",
+  "description": "Create, update and track tasks and projects across your GetItDone team workspaces.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://nowgetitdone.com/docs/connecting-ai-assistants",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "getitdone",
+    "tasks",
+    "project-management",
+    "teams",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dodomain",
+  "description": "Connect customers' custom domains to your product: guided DNS setup, verification and certificates, managed from doDomain.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://dodomain.io/docs/connecting-ai-assistants",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "dodomain",
+    "domains",
+    "dns",
+    "ssl",
+    "saas",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

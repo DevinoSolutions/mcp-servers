@@ -1,0 +1,22 @@
+{
+  "name": "notifly",
+  "description": "Manage notification workflows, subscribers and topics, and trigger delivery across email, SMS, push, chat and in-app channels with Notifly.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://notifly.io/developers",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "notifly",
+    "notifications",
+    "email",
+    "sms",
+    "push",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

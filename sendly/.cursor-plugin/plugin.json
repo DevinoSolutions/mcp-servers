@@ -1,0 +1,21 @@
+{
+  "name": "sendly",
+  "description": "Send transactional email, run campaigns, and manage contacts, lists and segments in Sendly.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://docs.sendly.now/guides/mcp",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "sendly",
+    "email",
+    "campaigns",
+    "contacts",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

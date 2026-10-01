@@ -1,0 +1,275 @@
+{
+  "name": "devino",
+  "owner": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "metadata": {
+    "description": "Remote MCP servers for Devino Solutions products, each packaged as a Cursor plugin with workflow skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bioflow",
+      "source": "bioflow",
+      "description": "Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://getbioflow.com/mcp",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "bioflow/assets/logo.png",
+      "category": "productivity",
+      "tags": [
+        "link-in-bio",
+        "marketing",
+        "creator"
+      ]
+    },
+    {
+      "name": "dodomain",
+      "source": "dodomain",
+      "description": "Connect customers' custom domains to your product: guided DNS setup, verification and certificates, managed from doDomain.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://dodomain.io/docs/connecting-ai-assistants",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "dodomain/assets/logo.png",
+      "category": "devops",
+      "tags": [
+        "domains",
+        "dns",
+        "ssl",
+        "saas"
+      ]
+    },
+    {
+      "name": "getitdone",
+      "source": "getitdone",
+      "description": "Create, update and track tasks and projects across your GetItDone team workspaces.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://nowgetitdone.com/docs/connecting-ai-assistants",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "getitdone/assets/logo.png",
+      "category": "productivity",
+      "tags": [
+        "tasks",
+        "project-management",
+        "teams"
+      ]
+    },
+    {
+      "name": "notifly",
+      "source": "notifly",
+      "description": "Manage notification workflows, subscribers and topics, and trigger delivery across email, SMS, push, chat and in-app channels with Notifly.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://notifly.io/developers",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "notifly/assets/logo.png",
+      "category": "communication",
+      "tags": [
+        "notifications",
+        "email",
+        "sms",
+        "push"
+      ]
+    },
+    {
+      "name": "postify",
+      "source": "postify",
+      "description": "Draft, schedule and publish social media posts to your connected channels, and read post analytics, from your Postify calendar.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://usepostify.com/developers",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "postify/assets/logo.png",
+      "category": "productivity",
+      "tags": [
+        "social-media",
+        "scheduling",
+        "marketing"
+      ]
+    },
+    {
+      "name": "sendly",
+      "source": "sendly",
+      "description": "Send transactional email, run campaigns, and manage contacts, lists and segments in Sendly.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://docs.sendly.now/guides/mcp",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "sendly/assets/logo.png",
+      "category": "communication",
+      "tags": [
+        "email",
+        "campaigns",
+        "contacts"
+      ]
+    },
+    {
+      "name": "shorty",
+      "source": "shorty",
+      "description": "Summarize and transcribe videos, audio files, documents and web pages with Shorty.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://aishorty.com/docs/connecting-ai-assistants",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "shorty/assets/logo.png",
+      "category": "productivity",
+      "tags": [
+        "summaries",
+        "transcription",
+        "video"
+      ]
+    },
+    {
+      "name": "snapvisor",
+      "source": "snapvisor",
+      "description": "Review visual regression builds, approve or reject screenshot changes, and manage SnapVisor projects.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://snapvisor.io/docs",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "snapvisor/assets/logo.png",
+      "category": "devops",
+      "tags": [
+        "testing",
+        "visual-regression",
+        "ci"
+      ]
+    },
+    {
+      "name": "superbooks",
+      "source": "superbooks",
+      "description": "Work with your SuperBooks books: transactions and categories, invoices, customers, receipts, time tracking and financial reports.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://docs.superbooks.io/mcp",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "superbooks/assets/logo.png",
+      "category": "finance",
+      "tags": [
+        "bookkeeping",
+        "invoices",
+        "accounting"
+      ]
+    },
+    {
+      "name": "unotes",
+      "source": "unotes",
+      "description": "Search a library of university course materials (past exams, assignments, lab reports, lecture notes) and your uNotes flashcards and quizzes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://unotes.net/docs",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "unotes/assets/logo.png",
+      "category": "education",
+      "tags": [
+        "study",
+        "university",
+        "notes"
+      ]
+    },
+    {
+      "name": "upapi",
+      "source": "upapi",
+      "description": "Call a catalog of ready-to-use APIs through one upAPI account and key, without signing up for each upstream service.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://upapi.io/docs/mcp",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "upapi/assets/logo.png",
+      "category": "devops",
+      "tags": [
+        "api",
+        "gateway",
+        "integrations"
+      ]
+    },
+    {
+      "name": "uptimely",
+      "source": "uptimely",
+      "description": "Manage uptime monitors, incidents and status pages, and read check results, in Uptimely.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://getuptimely.com/integrations",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "uptimely/assets/logo.png",
+      "category": "monitoring",
+      "tags": [
+        "uptime",
+        "incidents",
+        "status-pages"
+      ]
+    },
+    {
+      "name": "voicelabs",
+      "source": "voicelabs",
+      "description": "Generate speech from text in your voices and transcribe audio with VoiceLabs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://voicelabs.now/mcp",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "voicelabs/assets/logo.png",
+      "category": "ai",
+      "tags": [
+        "text-to-speech",
+        "transcription",
+        "voice"
+      ]
+    }
+  ]
+}

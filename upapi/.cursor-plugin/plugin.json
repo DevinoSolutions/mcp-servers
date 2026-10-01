@@ -1,0 +1,20 @@
+{
+  "name": "upapi",
+  "description": "Call a catalog of ready-to-use APIs through one upAPI account and key, without signing up for each upstream service.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://upapi.io/docs/mcp",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "upapi",
+    "api",
+    "gateway",
+    "integrations",
+    "mcp"
+  ],
+  "logo": "assets/logo.png"
+}

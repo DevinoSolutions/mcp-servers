@@ -1,0 +1,21 @@
+{
+  "name": "shorty",
+  "description": "Summarize and transcribe videos, audio files, documents and web pages with Shorty.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://aishorty.com/docs/connecting-ai-assistants",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "shorty",
+    "summaries",
+    "transcription",
+    "video",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

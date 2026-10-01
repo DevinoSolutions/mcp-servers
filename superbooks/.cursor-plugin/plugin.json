@@ -1,0 +1,21 @@
+{
+  "name": "superbooks",
+  "description": "Work with your SuperBooks books: transactions and categories, invoices, customers, receipts, time tracking and financial reports.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://docs.superbooks.io/mcp",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "superbooks",
+    "bookkeeping",
+    "invoices",
+    "accounting",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

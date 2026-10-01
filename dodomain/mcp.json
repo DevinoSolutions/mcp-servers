@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "dodomain": {
+      "url": "https://app.dodomain.io/api/mcp"
+    }
+  }
+}

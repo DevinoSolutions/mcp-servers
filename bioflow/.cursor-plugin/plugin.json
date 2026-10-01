@@ -1,0 +1,21 @@
+{
+  "name": "bioflow",
+  "description": "Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://getbioflow.com/mcp",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "bioflow",
+    "link-in-bio",
+    "marketing",
+    "creator",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}

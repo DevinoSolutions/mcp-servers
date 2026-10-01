@@ -1,0 +1,21 @@
+{
+  "name": "uptimely",
+  "description": "Manage uptime monitors, incidents and status pages, and read check results, in Uptimely.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca"
+  },
+  "homepage": "https://getuptimely.com/integrations",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "uptimely",
+    "uptime",
+    "incidents",
+    "status-pages",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills"
+}
