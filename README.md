@@ -22,7 +22,7 @@ Every folder is a Cursor plugin (`.cursor-plugin/plugin.json` + `mcp.json` + wor
 | <img src="uptimely/assets/logo.png" width="24"> | [Uptimely](uptimely) | Manage uptime monitors, incidents and status pages, and read check results, in Uptimely. | `https://app.getuptimely.com/api/mcp` | [Cursor](https://cursor.com/install-mcp?name=uptimely&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXR1cHRpbWVseS5jb20vYXBpL21jcCJ9) · [VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=uptimely&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.getuptimely.com%2Fapi%2Fmcp%22%7D) |
 | <img src="voicelabs/assets/logo.png" width="24"> | [VoiceLabs](voicelabs) | Generate speech from text in your voices and transcribe audio with VoiceLabs. | `https://app.voicelabs.now/api/mcp` | [Cursor](https://cursor.com/install-mcp?name=voicelabs&config=eyJ1cmwiOiJodHRwczovL2FwcC52b2ljZWxhYnMubm93L2FwaS9tY3AifQ%3D%3D) · [VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=voicelabs&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.voicelabs.now%2Fapi%2Fmcp%22%7D) |
 
-All of these are also published in the official MCP Registry, the Claude Connectors Directory and ChatGPT Apps.
+All of these are also published in the official MCP Registry.
 
 ## Security
 

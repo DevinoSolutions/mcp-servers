@@ -53,7 +53,7 @@ The server is remote, so there is nothing to run locally. It signs you in with O
 
 **Claude Code:** `claude mcp add --transport http snapvisor https://mcp.snapvisor.io/`
 
-**Claude and ChatGPT:** SnapVisor is listed in the Claude Connectors Directory and ChatGPT Apps.
+**Claude and ChatGPT:** add `https://mcp.snapvisor.io/` as a custom connector (remote MCP server, OAuth sign-in).
 
 **Any other MCP client:** Streamable HTTP endpoint `https://mcp.snapvisor.io/`. It is also published in the official MCP Registry.
 

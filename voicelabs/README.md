@@ -53,7 +53,7 @@ The server is remote, so there is nothing to run locally. It signs you in with O
 
 **Claude Code:** `claude mcp add --transport http voicelabs https://app.voicelabs.now/api/mcp`
 
-**Claude and ChatGPT:** VoiceLabs is listed in the Claude Connectors Directory and ChatGPT Apps.
+**Claude and ChatGPT:** add `https://app.voicelabs.now/api/mcp` as a custom connector (remote MCP server, OAuth sign-in).
 
 **Any other MCP client:** Streamable HTTP endpoint `https://app.voicelabs.now/api/mcp`. It is also published in the official MCP Registry.
 
