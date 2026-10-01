@@ -63,6 +63,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://upapi.io/privacy
+- Privacy policy: https://upapi.io/privacy
 - Terms: https://upapi.io/terms
-- Support: https://app.upapi.io/support
+- Support: https://app.upapi.io/support or [support@upapi.io](mailto:support@upapi.io)

@@ -70,6 +70,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://getuptimely.com/privacy
+- Privacy policy: https://getuptimely.com/privacy
 - Terms: https://getuptimely.com/terms
-- Support: https://app.getuptimely.com/support
+- Support: https://app.getuptimely.com/support or [hello@getuptimely.com](mailto:hello@getuptimely.com)

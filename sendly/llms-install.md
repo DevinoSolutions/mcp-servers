@@ -21,4 +21,4 @@ Sendly runs as a hosted remote MCP server. Do not clone, build or run anything l
 
 3. Check the connection by listing tools. The server exposes `search_tools` and `execute_typescript`. Call `search_tools` with no arguments to see which Sendly operations this sign-in can reach, then call them from `execute_typescript` as `external_<name>` functions, for example `return await external_<name>({})`.
 
-If the tools do not appear, remove and re-add the server, then authenticate again. Docs: https://docs.sendly.now/guides/mcp. Support: https://docs.sendly.now/mcp.
+If the tools do not appear, remove and re-add the server, then authenticate again. Docs: https://docs.sendly.now/guides/mcp. Support: support@sendly.now.

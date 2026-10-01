@@ -21,4 +21,4 @@ SuperBooks runs as a hosted remote MCP server. Do not clone, build or run anythi
 
 3. Check the connection by listing tools. The server exposes `search_tools` and `execute_typescript`. Call `search_tools` with no arguments to see which SuperBooks operations this sign-in can reach, then call them from `execute_typescript` as `external_<name>` functions, for example `return await external_<name>({})`.
 
-If the tools do not appear, remove and re-add the server, then authenticate again. Docs: https://docs.superbooks.io/mcp. Support: https://superbooks.io/support/.
+If the tools do not appear, remove and re-add the server, then authenticate again. Docs: https://docs.superbooks.io/mcp. Support: support@superbooks.io.

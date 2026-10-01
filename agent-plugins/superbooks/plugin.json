@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "superbooks",
+  "version": "1.0.0",
+  "description": "Work with your SuperBooks books: transactions and categories, invoices, customers, receipts, time tracking and financial reports.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://superbooks.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "superbooks",
+    "bookkeeping",
+    "invoices",
+    "accounting",
+    "invoice",
+    "expenses",
+    "financial report",
+    "mcp"
+  ]
+}

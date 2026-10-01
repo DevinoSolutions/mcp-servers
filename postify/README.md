@@ -69,6 +69,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://usepostify.com/privacy
+- Privacy policy: https://usepostify.com/privacy
 - Terms: https://usepostify.com/terms
-- Support: https://app.usepostify.com/support
+- Support: https://app.usepostify.com/support or [hello@devino.ca](mailto:hello@devino.ca)

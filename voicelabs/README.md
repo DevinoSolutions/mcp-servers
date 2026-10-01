@@ -69,6 +69,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://voicelabs.now/privacy
+- Privacy policy: https://voicelabs.now/privacy
 - Terms: https://voicelabs.now/terms
 - Support: https://voicelabs.now/support

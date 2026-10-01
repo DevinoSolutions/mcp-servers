@@ -69,6 +69,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://aishorty.com/privacy
+- Privacy policy: https://aishorty.com/privacy
 - Terms: https://aishorty.com/terms
 - Support: https://aishorty.com/support

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bioflow",
+  "version": "1.0.0",
+  "description": "Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://getbioflow.com",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "bioflow",
+    "link-in-bio",
+    "marketing",
+    "creator",
+    "bio page",
+    "landing page",
+    "instagram",
+    "mcp"
+  ]
+}

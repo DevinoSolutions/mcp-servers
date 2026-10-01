@@ -70,6 +70,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://sendly.now/privacy
+- Privacy policy: https://sendly.now/privacy
 - Terms: https://sendly.now/terms
-- Support: https://docs.sendly.now/mcp
+- Support: [support@sendly.now](mailto:support@sendly.now)

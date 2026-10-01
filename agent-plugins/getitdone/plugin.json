@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "getitdone",
+  "version": "1.0.0",
+  "description": "Create, update and track tasks and projects across your GetItDone team workspaces.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://nowgetitdone.com",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "getitdone",
+    "tasks",
+    "project-management",
+    "teams",
+    "todo",
+    "task",
+    "project",
+    "mcp"
+  ]
+}

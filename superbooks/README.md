@@ -70,6 +70,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://superbooks.io/privacy/
+- Privacy policy: https://superbooks.io/privacy/
 - Terms: https://superbooks.io/terms/
-- Support: https://superbooks.io/support/
+- Support: [support@superbooks.io](mailto:support@superbooks.io)

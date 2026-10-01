@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "unotes",
+  "version": "1.0.0",
+  "description": "Search a library of university course materials (past exams, assignments, lab reports, lecture notes) and your uNotes flashcards and quizzes.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://unotes.net",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "unotes",
+    "study",
+    "university",
+    "notes",
+    "exam",
+    "lecture notes",
+    "flashcards",
+    "quiz",
+    "mcp"
+  ]
+}

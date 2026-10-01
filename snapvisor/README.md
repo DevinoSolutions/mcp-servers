@@ -70,6 +70,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://snapvisor.io/privacy
+- Privacy policy: https://snapvisor.io/privacy
 - Terms: https://snapvisor.io/terms
-- Support: https://snapvisor.io/support
+- Support: https://snapvisor.io/support or [support@snapvisor.io](mailto:support@snapvisor.io)

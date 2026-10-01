@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "voicelabs",
+  "version": "1.0.0",
+  "description": "Generate speech from text in your voices and transcribe audio with VoiceLabs.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://voicelabs.now",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "voicelabs",
+    "text-to-speech",
+    "transcription",
+    "voice",
+    "tts",
+    "speech",
+    "transcribe",
+    "mcp"
+  ]
+}

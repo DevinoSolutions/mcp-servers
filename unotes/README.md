@@ -69,6 +69,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://unotes.net/privacy
+- Privacy policy: https://unotes.net/privacy
 - Terms: https://unotes.net/terms
 - Support: https://unotes.net/support

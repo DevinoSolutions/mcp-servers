@@ -69,6 +69,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://notifly.io/privacy
+- Privacy policy: https://notifly.io/privacy
 - Terms: https://notifly.io/terms
-- Support: https://app.notifly.io/support
+- Support: https://app.notifly.io/support or [support@notifly.io](mailto:support@notifly.io)

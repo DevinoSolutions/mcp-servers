@@ -70,6 +70,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://nowgetitdone.com/privacy
+- Privacy policy: https://nowgetitdone.com/privacy
 - Terms: https://nowgetitdone.com/terms
 - Support: https://app.nowgetitdone.com/support

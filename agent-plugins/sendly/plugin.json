@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sendly",
+  "version": "1.0.0",
+  "description": "Send transactional email, run campaigns, and manage contacts, lists and segments in Sendly.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://sendly.now",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "sendly",
+    "email",
+    "campaigns",
+    "contacts",
+    "newsletter",
+    "transactional email",
+    "mcp"
+  ]
+}

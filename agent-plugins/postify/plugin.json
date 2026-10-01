@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "postify",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish social media posts to your connected channels, and read post analytics, from your Postify calendar.",
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://usepostify.com",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "postify",
+    "social-media",
+    "scheduling",
+    "marketing",
+    "social post",
+    "linkedin",
+    "instagram",
+    "content calendar",
+    "mcp"
+  ]
+}

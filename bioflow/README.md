@@ -69,6 +69,6 @@ The server runs in Code Mode: `tools/list` shows `search_tools` and `execute_typ
 
 ## Links
 
-- Privacy: https://app.getbioflow.com/privacy
+- Privacy policy: https://app.getbioflow.com/privacy
 - Terms: https://app.getbioflow.com/terms
-- Support: https://app.getbioflow.com/support
+- Support: https://app.getbioflow.com/support or [hello@devino.ca](mailto:hello@devino.ca)

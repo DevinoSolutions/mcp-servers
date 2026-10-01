@@ -4,6 +4,8 @@ Hosted remote MCP servers for the Devino Solutions products. Each one is a Strea
 
 Every folder is a Cursor plugin (`.cursor-plugin/plugin.json` + `mcp.json` + workflow skills) and carries a README with setup for Cursor, Cline, VS Code, Claude Code and other clients, plus an `llms-install.md` that Cline and other agents follow to install it.
 
+`agent-plugins/<server>` holds the same servers as Kiro powers in the [Agent Plugins](https://agent-plugins.org) format (`plugin.json` + `mcp.json` + skills).
+
 | | Server | What it does | Endpoint | One-click |
 |---|---|---|---|---|
 | <img src="bioflow/assets/logo.png" width="24"> | [BioFlow](bioflow) | Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow. | `https://app.getbioflow.com/api/mcp` | [Cursor](https://cursor.com/install-mcp?name=bioflow&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRiaW9mbG93LmNvbS9hcGkvbWNwIn0%3D) · [VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=bioflow&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.getbioflow.com%2Fapi%2Fmcp%22%7D) |
