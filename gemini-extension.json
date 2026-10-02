@@ -1,0 +1,47 @@
+{
+  "name": "devino",
+  "version": "1.0.0",
+  "description": "Hosted MCP servers for Devino Solutions products (Postify, Sendly, Notifly, Uptimely, SuperBooks and more). Streamable HTTP with OAuth sign-in, no API keys.",
+  "mcpServers": {
+    "bioflow": {
+      "httpUrl": "https://app.getbioflow.com/api/mcp"
+    },
+    "dodomain": {
+      "httpUrl": "https://app.dodomain.io/api/mcp"
+    },
+    "getitdone": {
+      "httpUrl": "https://app.nowgetitdone.com/api/mcp"
+    },
+    "notifly": {
+      "httpUrl": "https://api.notifly.io/mcp"
+    },
+    "postify": {
+      "httpUrl": "https://app.usepostify.com/api/mcp"
+    },
+    "sendly": {
+      "httpUrl": "https://app.sendly.now/api/mcp"
+    },
+    "shorty": {
+      "httpUrl": "https://aishorty.com/api/mcp"
+    },
+    "snapvisor": {
+      "httpUrl": "https://mcp.snapvisor.io/"
+    },
+    "superbooks": {
+      "httpUrl": "https://app.superbooks.io/mcp"
+    },
+    "unotes": {
+      "httpUrl": "https://unotes.net/api/mcp"
+    },
+    "upapi": {
+      "httpUrl": "https://app.upapi.io/api/mcp"
+    },
+    "uptimely": {
+      "httpUrl": "https://app.getuptimely.com/api/mcp"
+    },
+    "voicelabs": {
+      "httpUrl": "https://app.voicelabs.now/api/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

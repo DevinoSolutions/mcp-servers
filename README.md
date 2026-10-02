@@ -4,6 +4,8 @@ Hosted remote MCP servers for the Devino Solutions products. Each one is a Strea
 
 Every folder is a Cursor plugin (`.cursor-plugin/plugin.json` + `mcp.json` + workflow skills) and carries a README with setup for Cursor, Cline, VS Code, Claude Code and other clients, plus an `llms-install.md` that Cline and other agents follow to install it.
 
+The repository root is also a [Gemini CLI](https://geminicli.com) extension with all servers: `gemini extensions install https://github.com/DevinoSolutions/mcp-servers`, then `/mcp auth <server>` for the products you use.
+
 `agent-plugins/<server>` holds the same servers as Kiro powers in the [Agent Plugins](https://agent-plugins.org) format (`plugin.json` + `mcp.json` + skills).
 
 | | Server | What it does | Endpoint | One-click |
