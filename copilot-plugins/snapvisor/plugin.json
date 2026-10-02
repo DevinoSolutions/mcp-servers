@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "snapvisor",
+  "version": "1.1.0",
+  "description": "Review visual regression builds, approve or reject screenshot changes, and manage SnapVisor projects.",
+  "author": {
+    "name": "Devino Solutions",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://snapvisor.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "snapvisor",
+    "testing",
+    "visual-regression",
+    "ci",
+    "mcp"
+  ]
+}

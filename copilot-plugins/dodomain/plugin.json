@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dodomain",
+  "version": "1.1.0",
+  "description": "Connect customers' custom domains to your product: guided DNS setup, verification and certificates, managed from doDomain.",
+  "author": {
+    "name": "Devino Solutions",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://dodomain.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "dodomain",
+    "domains",
+    "dns",
+    "ssl",
+    "saas",
+    "mcp"
+  ]
+}

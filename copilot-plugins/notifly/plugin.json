@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "notifly",
+  "version": "1.1.0",
+  "description": "Manage notification workflows, subscribers and topics, and trigger delivery across email, SMS, push, chat and in-app channels with Notifly.",
+  "author": {
+    "name": "Devino Solutions",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://notifly.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "notifly",
+    "notifications",
+    "email",
+    "sms",
+    "push",
+    "mcp"
+  ]
+}

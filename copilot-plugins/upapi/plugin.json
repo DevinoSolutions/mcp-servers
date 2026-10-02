@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "upapi",
+  "version": "1.1.0",
+  "description": "Call a catalog of ready-to-use APIs through one upAPI account and key, without signing up for each upstream service.",
+  "author": {
+    "name": "Devino Solutions",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://upapi.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT",
+  "keywords": [
+    "upapi",
+    "api",
+    "gateway",
+    "integrations",
+    "mcp"
+  ]
+}
