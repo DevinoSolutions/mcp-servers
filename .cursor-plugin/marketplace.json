@@ -30,6 +30,26 @@
       ]
     },
     {
+      "name": "caly",
+      "source": "caly",
+      "description": "Find open meeting times, book, reschedule and cancel meetings, and read your event types, bookings and schedules in Caly.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Devino Solutions",
+        "email": "support@devino.ca"
+      },
+      "homepage": "https://trycaly.com",
+      "repository": "https://github.com/DevinoSolutions/mcp-servers",
+      "license": "MIT",
+      "logo": "caly/assets/logo.png",
+      "category": "productivity",
+      "tags": [
+        "scheduling",
+        "booking",
+        "calendar"
+      ]
+    },
+    {
       "name": "dodomain",
       "source": "dodomain",
       "description": "Connect customers' custom domains to your product: guided DNS setup, verification and certificates, managed from doDomain.",

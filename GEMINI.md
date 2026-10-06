@@ -9,6 +9,7 @@ A server stays disconnected until the user signs in to that product. Run `/mcp a
 ## Servers
 
 - `bioflow` (BioFlow): Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow. Docs: https://getbioflow.com/mcp
+- `caly` (Caly): Find open meeting times, book, reschedule and cancel meetings, and read your event types, bookings and schedules in Caly. Docs: https://trycaly.com/docs/
 - `dodomain` (doDomain): Connect customers' custom domains to your product: guided DNS setup, verification and certificates, managed from doDomain. Docs: https://dodomain.io/docs/connecting-ai-assistants
 - `getitdone` (GetItDone): Create, update and track tasks and projects across your GetItDone team workspaces. Docs: https://nowgetitdone.com/docs/connecting-ai-assistants
 - `notifly` (Notifly): Manage notification workflows, subscribers and topics, and trigger delivery across email, SMS, push, chat and in-app channels with Notifly. Docs: https://notifly.io/developers
