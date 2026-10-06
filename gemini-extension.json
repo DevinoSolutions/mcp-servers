@@ -1,7 +1,7 @@
 {
   "name": "devino",
   "version": "1.0.0",
-  "description": "Hosted MCP servers for Devino Solutions products (Postify, Sendly, Notifly, Uptimely, SuperBooks, Caly and more). Streamable HTTP with OAuth sign-in, no API keys.",
+  "description": "Hosted MCP servers for Devino Solutions products (Postify, Sendly, Notifly, Uptimely, SuperBooks and more). Streamable HTTP with OAuth sign-in, no API keys.",
   "mcpServers": {
     "bioflow": {
       "httpUrl": "https://app.getbioflow.com/api/mcp"

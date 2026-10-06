@@ -17,8 +17,8 @@ Caly runs as a hosted remote MCP server. Do not clone, build or run anything loc
 }
 ```
 
-2. No API key or environment variable is needed. The server uses OAuth 2.1. When the server shows as needing authentication, click **Authenticate**; a browser window opens on the Caly sign-in and consent screen. The user signs in (or creates a free account at https://trycaly.com) and approves access.
+2. No API key or environment variable is needed. The server uses OAuth 2.1. When the server shows as needing authentication, click **Authenticate**; a browser window opens on the Caly sign-in and consent screen. The user signs in (or creates a free account at https://trycaly.com) and approves the scopes.
 
-3. Check the connection by listing tools. The server exposes `search_tools` and `execute_typescript`. Call `search_tools` with no arguments to see which Caly operations this sign-in can reach, then call them from `execute_typescript` as `external_<name>` functions, for example `return await external_whoami({})`.
+3. Check the connection by listing tools. The server exposes `search_tools` and `execute_typescript`. Call `search_tools` with no arguments to see which Caly operations this sign-in can reach, then call them from `execute_typescript` as `external_<name>` functions, for example `return await external_<name>({})`.
 
-If the tools do not appear, remove and re-add the server, then authenticate again. Docs: https://trycaly.com/docs/. Support: [hello@devino.ca](mailto:hello@devino.ca).
+If the tools do not appear, remove and re-add the server, then authenticate again. Docs: https://trycaly.com/docs/. Support: hello@devino.ca.
