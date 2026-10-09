@@ -50,6 +50,10 @@ agy plugin install https://github.com/DevinoSolutions/mcp-servers/antigravity-pl
 
 Or clone the repository and run `agy plugin install ./antigravity-plugins/<server>`. In the Antigravity IDE, copy `antigravity-plugins/<server>` into `.agents/plugins/<server>` for one workspace or `~/.gemini/config/plugins/<server>` for all of them, then run `agy plugin list` to confirm. Antigravity does not yet support third-party marketplaces, so there is no marketplace manifest to add; this section will change when it does.
 
+## Badges
+
+`badges/` holds "Add to <agent>" SVG buttons (dark and light) for Claude, ChatGPT, Cursor, VS Code, Kiro, Replit, Antigravity, Gemini, Codex, Perplexity, Mistral and Grok, and `install-links.json` lists the install link or command for every server and agent. Embed them on a product site from jsDelivr, for example `https://cdn.jsdelivr.net/gh/DevinoSolutions/mcp-servers@main/badges/add-to-cursor.svg`. See [badges/README.md](badges/README.md) for the embed snippets and which link each badge should open.
+
 ## Security
 
 Tokens come from OAuth 2.1 with PKCE and are bound to each server's MCP resource. You pick scopes on each product's consent screen, and a tool you did not grant is never declared to the assistant. Destructive operations need a setting that only a signed-in person can turn on, plus a confirmation on every call. Report security issues to security@devino.ca.
