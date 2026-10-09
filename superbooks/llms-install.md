@@ -9,7 +9,7 @@ SuperBooks runs as a hosted remote MCP server. Do not clone, build or run anythi
   "mcpServers": {
     "superbooks": {
       "type": "streamableHttp",
-      "url": "https://app.superbooks.io/mcp",
+      "url": "https://api.superbooks.io/mcp",
       "disabled": false,
       "autoApprove": []
     }

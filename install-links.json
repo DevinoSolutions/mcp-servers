@@ -273,16 +273,16 @@
       "name": "superbooks",
       "displayName": "SuperBooks",
       "description": "Work with your SuperBooks books: transactions and categories, invoices, customers, receipts, time tracking and financial reports.",
-      "mcpUrl": "https://app.superbooks.io/mcp",
+      "mcpUrl": "https://api.superbooks.io/mcp",
       "docs": "https://github.com/DevinoSolutions/mcp-servers/tree/main/superbooks",
       "homepage": "https://docs.superbooks.io/mcp",
       "links": {
-        "cursor": "https://cursor.com/install-mcp?name=superbooks&config=eyJ1cmwiOiJodHRwczovL2FwcC5zdXBlcmJvb2tzLmlvL21jcCJ9",
-        "cursorDeeplink": "cursor://anysphere.cursor-deeplink/mcp/install?name=superbooks&config=eyJ1cmwiOiJodHRwczovL2FwcC5zdXBlcmJvb2tzLmlvL21jcCJ9",
-        "vscode": "https://insiders.vscode.dev/redirect/mcp/install?name=superbooks&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.superbooks.io%2Fmcp%22%7D",
-        "vscodeDeeplink": "vscode:mcp/install?%7B%22name%22%3A%22superbooks%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.superbooks.io%2Fmcp%22%7D",
-        "kiro": "https://kiro.dev/launch/mcp/add?name=superbooks&config=%7B%22url%22%3A%22https%3A%2F%2Fapp.superbooks.io%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D",
-        "replit": "https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6IlN1cGVyQm9va3MiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hcHAuc3VwZXJib29rcy5pby9tY3AifQ%3D%3D",
+        "cursor": "https://cursor.com/install-mcp?name=superbooks&config=eyJ1cmwiOiJodHRwczovL2FwaS5zdXBlcmJvb2tzLmlvL21jcCJ9",
+        "cursorDeeplink": "cursor://anysphere.cursor-deeplink/mcp/install?name=superbooks&config=eyJ1cmwiOiJodHRwczovL2FwaS5zdXBlcmJvb2tzLmlvL21jcCJ9",
+        "vscode": "https://insiders.vscode.dev/redirect/mcp/install?name=superbooks&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.superbooks.io%2Fmcp%22%7D",
+        "vscodeDeeplink": "vscode:mcp/install?%7B%22name%22%3A%22superbooks%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.superbooks.io%2Fmcp%22%7D",
+        "kiro": "https://kiro.dev/launch/mcp/add?name=superbooks&config=%7B%22url%22%3A%22https%3A%2F%2Fapi.superbooks.io%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D",
+        "replit": "https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6IlN1cGVyQm9va3MiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hcGkuc3VwZXJib29rcy5pby9tY3AifQ%3D%3D",
         "claudeDirectory": {
           "url": "https://claude.ai/directory/superbooks",
           "verified": true
@@ -293,9 +293,9 @@
         },
         "antigravityCommand": "agy plugin install https://github.com/DevinoSolutions/mcp-servers/antigravity-plugins/superbooks",
         "geminiCliCommand": "gemini extensions install https://github.com/DevinoSolutions/mcp-servers",
-        "claudeCodeCommand": "claude mcp add --transport http superbooks https://app.superbooks.io/mcp",
-        "codexToml": "[mcp_servers.superbooks]\nurl = \"https://app.superbooks.io/mcp\"\n",
-        "manualUrl": "https://app.superbooks.io/mcp"
+        "claudeCodeCommand": "claude mcp add --transport http superbooks https://api.superbooks.io/mcp",
+        "codexToml": "[mcp_servers.superbooks]\nurl = \"https://api.superbooks.io/mcp\"\n",
+        "manualUrl": "https://api.superbooks.io/mcp"
       }
     },
     {

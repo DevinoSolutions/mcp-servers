@@ -2,7 +2,7 @@
 
 Work with your SuperBooks books: categorize transactions, match receipts, draft and send invoices, chase unpaid ones, and read P&L, runway and spending reports.
 
-This plugin connects [Google Antigravity](https://antigravity.google) to the hosted SuperBooks MCP server at `https://app.superbooks.io/mcp` (Streamable HTTP). There is nothing to run locally and no API key: the first time the agent calls the server, a browser window opens on the SuperBooks sign-in and consent screen (OAuth 2.1 with PKCE and dynamic client registration), where you choose what the agent may do. You need an account at https://superbooks.io.
+This plugin connects [Google Antigravity](https://antigravity.google) to the hosted SuperBooks MCP server at `https://api.superbooks.io/mcp` (Streamable HTTP). There is nothing to run locally and no API key: the first time the agent calls the server, a browser window opens on the SuperBooks sign-in and consent screen (OAuth 2.1 with PKCE and dynamic client registration), where you choose what the agent may do. You need an account at https://superbooks.io.
 
 Skills included: `chasing-unpaid-invoices`, `cleaning-up-bookkeeping`, `drafting-invoices`, `reading-financial-reports`.
 

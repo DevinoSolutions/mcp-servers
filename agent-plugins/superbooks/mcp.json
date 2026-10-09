@@ -3,7 +3,7 @@
   "mcpServers": {
     "superbooks": {
       "type": "streamable-http",
-      "url": "https://app.superbooks.io/mcp"
+      "url": "https://api.superbooks.io/mcp"
     }
   }
 }
