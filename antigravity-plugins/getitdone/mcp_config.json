@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "getitdone": {
+      "serverUrl": "https://app.nowgetitdone.com/api/mcp"
+    }
+  }
+}

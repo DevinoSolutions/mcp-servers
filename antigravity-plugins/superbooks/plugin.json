@@ -1,0 +1,32 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "superbooks",
+  "displayName": "SuperBooks",
+  "version": "1.0.0",
+  "description": "Work with your SuperBooks books: categorize transactions, match receipts, draft and send invoices, chase unpaid ones, and read P&L, runway and spending reports.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Which invoices are overdue and who owes me the most?",
+    "Invoice Cedar Valley Books for 6 hours of design at $125",
+    "Show my profit and loss for this quarter and my current runway"
+  ],
+  "category": "Finance",
+  "keywords": [
+    "superbooks",
+    "bookkeeping",
+    "invoices",
+    "accounting",
+    "invoice",
+    "expenses",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://superbooks.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "postify": {
+      "serverUrl": "https://app.usepostify.com/api/mcp"
+    }
+  }
+}

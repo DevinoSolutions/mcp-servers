@@ -1,0 +1,33 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "getitdone",
+  "displayName": "GetItDone",
+  "version": "1.0.0",
+  "description": "Create, update and track tasks and projects in your GetItDone team workspaces: capture to-dos from notes, review your workload and dig into any task.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Turn these meeting notes into GetItDone tasks",
+    "What's on my plate this week and what is blocked?",
+    "Open T-123 and explain what it is waiting on"
+  ],
+  "category": "Productivity",
+  "keywords": [
+    "getitdone",
+    "tasks",
+    "project-management",
+    "teams",
+    "todo",
+    "task",
+    "project",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://nowgetitdone.com",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "uptimely": {
+      "serverUrl": "https://app.getuptimely.com/api/mcp"
+    }
+  }
+}

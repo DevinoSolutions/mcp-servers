@@ -1,0 +1,32 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "dodomain",
+  "displayName": "doDomain",
+  "version": "1.0.0",
+  "description": "Connect your customers' custom domains to your product with doDomain: preflight a domain, start a guided DNS connect session, verify records and check health.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Who runs DNS for shop.acme.com and can it do one-click connect?",
+    "Start a doDomain connect session for shop.acme.com on my app and give me the DNS records",
+    "Which of my connected customer domains have DNS drift right now?"
+  ],
+  "category": "Developer Tools",
+  "keywords": [
+    "dodomain",
+    "domains",
+    "dns",
+    "ssl",
+    "saas",
+    "certificate",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://dodomain.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}
