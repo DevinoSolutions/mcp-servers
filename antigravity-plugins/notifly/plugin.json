@@ -1,0 +1,33 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "notifly",
+  "displayName": "Notifly",
+  "version": "1.0.0",
+  "description": "Manage Notifly notification workflows, subscribers and topics, trigger delivery across email, SMS, push, chat and in-app, and check whether a message landed.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Which Notifly workflows do we have and which channels do they send on?",
+    "Did the welcome email go out to dana@example.com?",
+    "Send the order-confirmation workflow to subscriber wc-1020"
+  ],
+  "category": "Developer Tools",
+  "keywords": [
+    "notifly",
+    "notifications",
+    "email",
+    "sms",
+    "push",
+    "notification",
+    "workflow",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://notifly.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

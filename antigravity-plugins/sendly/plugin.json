@@ -1,0 +1,31 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "sendly",
+  "displayName": "Sendly",
+  "version": "1.0.0",
+  "description": "Send transactional email, draft and run campaigns, build onboarding workflows, manage contacts and segments, and fix deliverability with Sendly.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Draft a September newsletter for premium members and send me a test",
+    "Why is mail from my domain going to spam? Check DKIM, SPF and DMARC",
+    "Build a three-step welcome series for new signups"
+  ],
+  "category": "Marketing",
+  "keywords": [
+    "sendly",
+    "email",
+    "campaigns",
+    "contacts",
+    "newsletter",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://sendly.now",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

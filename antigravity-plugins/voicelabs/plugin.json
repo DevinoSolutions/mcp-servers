@@ -1,0 +1,33 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "voicelabs",
+  "displayName": "VoiceLabs",
+  "version": "1.0.0",
+  "description": "Generate speech from text in your VoiceLabs voices, transcribe audio to text, and manage your voice library, including consented voice cloning, from the agent.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Read this paragraph aloud in my Narrator voice",
+    "Transcribe this meeting recording",
+    "What voices do I have, and which one fits French?"
+  ],
+  "category": "Productivity",
+  "keywords": [
+    "voicelabs",
+    "text-to-speech",
+    "transcription",
+    "voice",
+    "tts",
+    "speech",
+    "transcribe",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://voicelabs.now",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

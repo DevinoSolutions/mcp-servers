@@ -1,0 +1,32 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "snapvisor",
+  "displayName": "SnapVisor",
+  "version": "1.0.0",
+  "description": "Review SnapVisor visual regression builds: see what changed in screenshot diffs, approve or reject builds, handle flaky changes and join review threads.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "What changed in the latest SnapVisor build on this branch?",
+    "Approve build 42, the nav restyle is intentional",
+    "Ignore the date-widget change, it's the flaky clock again"
+  ],
+  "category": "Developer Tools",
+  "keywords": [
+    "snapvisor",
+    "testing",
+    "visual-regression",
+    "ci",
+    "screenshot",
+    "snapshot",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://snapvisor.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

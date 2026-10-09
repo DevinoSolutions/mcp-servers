@@ -1,0 +1,33 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "unotes",
+  "displayName": "uNotes",
+  "version": "1.0.0",
+  "description": "Search a library of university course material: past exams, assignments, lab reports and lecture notes, plus your uNotes flashcards and quizzes, to study.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Find uNotes past exams for CSI 3131 about virtual memory",
+    "Make me a study guide from these lecture notes and quiz me on it",
+    "What should I revise this week based on my flashcards and quizzes?"
+  ],
+  "category": "Education",
+  "keywords": [
+    "unotes",
+    "study",
+    "university",
+    "notes",
+    "exam",
+    "flashcards",
+    "quiz",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://unotes.net",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

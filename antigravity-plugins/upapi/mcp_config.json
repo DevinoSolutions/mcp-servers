@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "upapi": {
+      "serverUrl": "https://app.upapi.io/api/mcp"
+    }
+  }
+}

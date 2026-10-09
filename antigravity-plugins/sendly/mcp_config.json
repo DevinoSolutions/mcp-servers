@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sendly": {
+      "serverUrl": "https://app.sendly.now/api/mcp"
+    }
+  }
+}

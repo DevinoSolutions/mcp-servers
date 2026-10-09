@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "bioflow": {
+      "serverUrl": "https://app.getbioflow.com/api/mcp"
+    }
+  }
+}

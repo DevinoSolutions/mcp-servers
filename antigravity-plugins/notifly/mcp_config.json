@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "notifly": {
+      "serverUrl": "https://api.notifly.io/mcp"
+    }
+  }
+}

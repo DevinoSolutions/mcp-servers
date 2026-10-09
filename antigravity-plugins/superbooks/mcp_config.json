@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "superbooks": {
+      "serverUrl": "https://app.superbooks.io/mcp"
+    }
+  }
+}

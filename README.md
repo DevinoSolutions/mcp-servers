@@ -10,6 +10,8 @@ The repository root is also a [Gemini CLI](https://geminicli.com) extension with
 
 `copilot-plugins/<server>` holds GitHub Copilot CLI plugins, in the same format, for the servers that fit a coding agent (SnapVisor, Uptimely, upAPI, Notifly, Sendly, doDomain): `copilot plugin install DevinoSolutions/mcp-servers:copilot-plugins/<server>`.
 
+`antigravity-plugins/<server>` holds [Google Antigravity](https://antigravity.google/docs/plugins/) plugins for all servers (`plugin.json` + `mcp_config.json` + skills). See [Antigravity](#antigravity) below.
+
 | | Server | What it does | Endpoint | One-click |
 |---|---|---|---|---|
 | <img src="bioflow/assets/logo.png" width="24"> | [BioFlow](bioflow) | Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow. | `https://app.getbioflow.com/api/mcp` | [Cursor](https://cursor.com/install-mcp?name=bioflow&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRiaW9mbG93LmNvbS9hcGkvbWNwIn0%3D) · [VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=bioflow&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.getbioflow.com%2Fapi%2Fmcp%22%7D) |
@@ -28,6 +30,24 @@ The repository root is also a [Gemini CLI](https://geminicli.com) extension with
 | <img src="voicelabs/assets/logo.png" width="24"> | [VoiceLabs](voicelabs) | Generate speech from text in your voices and transcribe audio with VoiceLabs. | `https://app.voicelabs.now/api/mcp` | [Cursor](https://cursor.com/install-mcp?name=voicelabs&config=eyJ1cmwiOiJodHRwczovL2FwcC52b2ljZWxhYnMubm93L2FwaS9tY3AifQ%3D%3D) · [VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=voicelabs&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapp.voicelabs.now%2Fapi%2Fmcp%22%7D) |
 
 All of these are also published in the official MCP Registry.
+
+## Antigravity
+
+Each server is packaged as a native [Antigravity](https://antigravity.google) plugin under `antigravity-plugins/<server>`: a `plugin.json` manifest, an `mcp_config.json` that points at the hosted server with `serverUrl`, the same skills as the Agent Plugins, and the logo. OAuth sign-in happens in the browser on first use, so no API key or local process is needed.
+
+Once a server is listed in the Antigravity Marketplace, install it from the official marketplace with the Antigravity CLI or the `/plugin` command in the IDE:
+
+```bash
+agy plugin install postify@antigravity-plugins-official
+```
+
+Until then, install any server straight from this repository (the CLI accepts a plugin folder inside a GitHub repository):
+
+```bash
+agy plugin install https://github.com/DevinoSolutions/mcp-servers/antigravity-plugins/postify
+```
+
+Or clone the repository and run `agy plugin install ./antigravity-plugins/<server>`. In the Antigravity IDE, copy `antigravity-plugins/<server>` into `.agents/plugins/<server>` for one workspace or `~/.gemini/config/plugins/<server>` for all of them, then run `agy plugin list` to confirm. Antigravity does not yet support third-party marketplaces, so there is no marketplace manifest to add; this section will change when it does.
 
 ## Security
 

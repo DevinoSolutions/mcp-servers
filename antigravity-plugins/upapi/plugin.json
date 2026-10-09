@@ -1,0 +1,30 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "upapi",
+  "displayName": "upAPI",
+  "version": "1.0.0",
+  "description": "Call a catalog of ready-to-use APIs such as web search, Wikipedia, GitHub and more through one upAPI account and key, with no signup at each upstream service.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Which APIs can I call through upAPI right now?",
+    "Search the web for the latest release notes of this library through upAPI",
+    "Fetch the GitHub repo details for DevinoSolutions/mcp-servers via upAPI"
+  ],
+  "category": "Developer Tools",
+  "keywords": [
+    "upapi",
+    "api",
+    "gateway",
+    "integrations",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://upapi.io",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

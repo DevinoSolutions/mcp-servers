@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "snapvisor": {
+      "serverUrl": "https://mcp.snapvisor.io/"
+    }
+  }
+}
