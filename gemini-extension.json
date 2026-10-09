@@ -31,7 +31,7 @@
       "httpUrl": "https://mcp.snapvisor.io/"
     },
     "superbooks": {
-      "httpUrl": "https://app.superbooks.io/mcp"
+      "httpUrl": "https://api.superbooks.io/mcp"
     },
     "unotes": {
       "httpUrl": "https://unotes.net/api/mcp"
