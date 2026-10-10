@@ -54,6 +54,27 @@ Or clone the repository and run `agy plugin install ./antigravity-plugins/<serve
 
 `badges/` holds "Add to <agent>" SVG buttons (dark and light) for Claude, ChatGPT, Cursor, VS Code, Kiro, Replit, Antigravity, Gemini, Codex, Perplexity, Mistral and Grok, and `install-links.json` lists the install link or command for every server and agent. Embed them on a product site from jsDelivr, for example `https://cdn.jsdelivr.net/gh/DevinoSolutions/mcp-servers@main/badges/add-to-cursor.svg`. See [badges/README.md](badges/README.md) for the embed snippets and which link each badge should open.
 
+## Privacy and support
+
+Each server's privacy policy and support contact. The same links are in every server's own README.
+
+| Server | Privacy policy | Support |
+| --- | --- | --- |
+| BioFlow | https://app.getbioflow.com/privacy | https://app.getbioflow.com/support or [hello@devino.ca](mailto:hello@devino.ca) |
+| Caly | https://trycaly.com/privacy | [hello@devino.ca](mailto:hello@devino.ca) |
+| doDomain | https://dodomain.io/privacy | https://app.dodomain.io/support or [support@dodomain.io](mailto:support@dodomain.io) |
+| GetItDone | https://nowgetitdone.com/privacy | https://app.nowgetitdone.com/support |
+| Notifly | https://notifly.io/privacy | https://app.notifly.io/support or [support@notifly.io](mailto:support@notifly.io) |
+| Postify | https://usepostify.com/privacy | https://app.usepostify.com/support or [hello@devino.ca](mailto:hello@devino.ca) |
+| Sendly | https://sendly.now/privacy | [support@sendly.now](mailto:support@sendly.now) |
+| Shorty | https://aishorty.com/privacy | https://aishorty.com/support |
+| SnapVisor | https://snapvisor.io/privacy | https://snapvisor.io/support or [support@snapvisor.io](mailto:support@snapvisor.io) |
+| SuperBooks | https://superbooks.io/privacy/ | [support@superbooks.io](mailto:support@superbooks.io) |
+| uNotes | https://unotes.net/privacy | https://unotes.net/support |
+| upAPI | https://upapi.io/privacy | https://app.upapi.io/support or [support@upapi.io](mailto:support@upapi.io) |
+| Uptimely | https://getuptimely.com/privacy | https://app.getuptimely.com/support or [hello@getuptimely.com](mailto:hello@getuptimely.com) |
+| VoiceLabs | https://voicelabs.now/privacy | https://voicelabs.now/support |
+
 ## Security
 
 Tokens come from OAuth 2.1 with PKCE and are bound to each server's MCP resource. You pick scopes on each product's consent screen, and a tool you did not grant is never declared to the assistant. Destructive operations need a setting that only a signed-in person can turn on, plus a confirmation on every call. Report security issues to security@devino.ca.
