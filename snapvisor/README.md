@@ -7,6 +7,7 @@ Review visual regression builds, approve or reject screenshot changes, and manag
 - Endpoint: `https://mcp.snapvisor.io/` (Streamable HTTP, OAuth 2.1)
 - Product: https://snapvisor.io
 - Docs: https://snapvisor.io/docs
+- Plan: MCP access requires a paid SnapVisor plan. Free accounts can sign in, but the server returns 403 Forbidden for their tool calls.
 
 ## Install
 

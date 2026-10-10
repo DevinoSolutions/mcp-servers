@@ -2,7 +2,7 @@
 
 Review visual regression builds, approve or reject screenshot changes, and manage SnapVisor projects.
 
-This power connects Kiro to the hosted SnapVisor MCP server at `https://mcp.snapvisor.io/` (Streamable HTTP). There is nothing to run locally and no API key: the first time Kiro calls the server, a browser window opens on the SnapVisor sign-in and consent screen (OAuth 2.1 with PKCE and dynamic client registration), where you choose what the agent may do. You need an account at https://snapvisor.io.
+This power connects Kiro to the hosted SnapVisor MCP server at `https://mcp.snapvisor.io/` (Streamable HTTP). There is nothing to run locally and no API key: the first time Kiro calls the server, a browser window opens on the SnapVisor sign-in and consent screen (OAuth 2.1 with PKCE and dynamic client registration), where you choose what the agent may do. You need an account at https://snapvisor.io. MCP access requires a paid SnapVisor plan: free accounts can sign in, but the server returns 403 Forbidden for their tool calls.
 
 Skills included: `discussing-builds`, `handling-flaky-changes`, `reporting-snapvisor-usage`, `reviewing-visual-builds`.
 
