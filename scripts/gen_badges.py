@@ -34,8 +34,9 @@ AGENTS = [
 #   variant: the brand ships a dark and a white file; <slug>.svg on the light pill,
 #            <slug>-white.svg on the dark pill, both used exactly as provided
 #   asis:    full-colour mark the brand does not allow to be recoloured, used as provided
-# ChatGPT and Codex are left out on purpose: OpenAI's brand page (openai.com/brand) could
-# not be reached to confirm third-party use, and simple-icons dropped the OpenAI mark.
+# ChatGPT and Codex are left out on purpose: OpenAI's brand guidelines (https://openai.com/brand/)
+# say not to use its logos without permission (requests go to partnercomms@openai.com), and
+# simple-icons 16.34.0 no longer carries the OpenAI mark. Add them here once permission is granted.
 MARKS = {
     "claude": ("mono", "simple-icons 16.34.0 'claude', CC0, https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/claude.svg"),
     "cursor": ("mono", "simple-icons 16.34.0 'cursor', CC0, https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/cursor.svg"),

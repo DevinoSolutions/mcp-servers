@@ -2,7 +2,7 @@
 
 A button kit every Devino product site can embed so a visitor can add that product's MCP server to their assistant in one click. One SVG per agent, a dark and a light variant, plus [`install-links.json`](../install-links.json) at the repository root with the ready-made link or command for every server and agent.
 
-Each badge shows the agent's official mark next to "Add to <agent>". The marks are copied unchanged from the brand's own published files (or the CC0 [simple-icons](https://simpleicons.org) set where the brand has no single-colour file), kept in [`scripts/badge-marks/`](../scripts/badge-marks), and every badge carries a comment naming its source. Single-colour marks take the badge text colour; VS Code and Kiro keep their own colours because they are only published in colour, and Grok and Antigravity use the dark or white file the brand provides for each background. ChatGPT and Codex keep a generic plus-in-circle glyph until OpenAI's brand terms for third-party buttons are confirmed.
+Each badge shows the agent's official mark next to "Add to <agent>". The marks are copied unchanged from the brand's own published files (or the CC0 [simple-icons](https://simpleicons.org) set where the brand has no single-colour file), kept in [`scripts/badge-marks/`](../scripts/badge-marks), and every badge carries a comment naming its source. Single-colour marks take the badge text colour; VS Code and Kiro keep their own colours because they are only published in colour, and Grok and Antigravity use the dark or white file the brand provides for each background. ChatGPT and Codex keep a generic plus-in-circle glyph: [OpenAI's brand guidelines](https://openai.com/brand/) say not to use its logos without permission, and permission requests go to partnercomms@openai.com.
 
 | Agent | Mark source (fetched 2026-10-10) |
 |---|---|
@@ -16,7 +16,7 @@ Each badge shows the agent's official mark next to "Add to <agent>". The marks a
 | Perplexity | simple-icons 16.34.0 `perplexity` (CC0) |
 | Mistral | simple-icons 16.34.0 `mistralai` (CC0) |
 | Grok | xAI, [x.ai/legal/brand-guidelines](https://x.ai/legal/brand-guidelines) logo pack, `Grok_Logomark_Dark` / `_Light` |
-| ChatGPT, Codex | none (generic glyph) |
+| ChatGPT, Codex | none (generic glyph until OpenAI grants permission) |
 
 The marks are trademarks of their owners. Use a badge only to link to that agent's install flow or your own setup instructions for it, and follow the owner's guidelines (for example [VS Code](https://code.visualstudio.com/brand) and [xAI](https://x.ai/legal/brand-guidelines)).
 
