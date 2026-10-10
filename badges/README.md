@@ -2,7 +2,23 @@
 
 A button kit every Devino product site can embed so a visitor can add that product's MCP server to their assistant in one click. One SVG per agent, a dark and a light variant, plus [`install-links.json`](../install-links.json) at the repository root with the ready-made link or command for every server and agent.
 
-The badges carry text only (a generic plus-in-circle glyph and "Add to <agent>"). No vendor logo or trademark artwork is used, so they can be embedded anywhere without a brand review.
+Each badge shows the agent's official mark next to "Add to <agent>". The marks are copied unchanged from the brand's own published files (or the CC0 [simple-icons](https://simpleicons.org) set where the brand has no single-colour file), kept in [`scripts/badge-marks/`](../scripts/badge-marks), and every badge carries a comment naming its source. Single-colour marks take the badge text colour; VS Code and Kiro keep their own colours because they are only published in colour, and Grok and Antigravity use the dark or white file the brand provides for each background. ChatGPT and Codex keep a generic plus-in-circle glyph: [OpenAI's brand guidelines](https://openai.com/brand/) say not to use its logos without permission, and permission requests go to partnercomms@openai.com.
+
+| Agent | Mark source (fetched 2026-10-10) |
+|---|---|
+| Claude | simple-icons 16.34.0 `claude` (CC0) |
+| Cursor | simple-icons 16.34.0 `cursor` (CC0) |
+| VS Code | Microsoft, [code.visualstudio.com/brand](https://code.visualstudio.com/brand) icon pack, `vscode.svg` |
+| Kiro | [kiro.dev/icon.svg](https://kiro.dev/icon.svg) |
+| Replit | simple-icons 16.34.0 `replit` (CC0) |
+| Antigravity | Google, [antigravity.google/press](https://antigravity.google/press) one-color and white icons |
+| Gemini | simple-icons 16.34.0 `googlegemini` (CC0) |
+| Perplexity | simple-icons 16.34.0 `perplexity` (CC0) |
+| Mistral | simple-icons 16.34.0 `mistralai` (CC0) |
+| Grok | xAI, [x.ai/legal/brand-guidelines](https://x.ai/legal/brand-guidelines) logo pack, `Grok_Logomark_Dark` / `_Light` |
+| ChatGPT, Codex | none (generic glyph until OpenAI grants permission) |
+
+The marks are trademarks of their owners. Use a badge only to link to that agent's install flow or your own setup instructions for it, and follow the owner's guidelines (for example [VS Code](https://code.visualstudio.com/brand) and [xAI](https://x.ai/legal/brand-guidelines)).
 
 | Agent | Dark | Light |
 |---|---|---|
@@ -19,7 +35,7 @@ The badges carry text only (a generic plus-in-circle glyph and "Add to <agent>")
 | Mistral | ![Add to Mistral](add-to-mistral.svg) | ![Add to Mistral](add-to-mistral-light.svg) |
 | Grok | ![Add to Grok](add-to-grok.svg) | ![Add to Grok](add-to-grok-light.svg) |
 
-Each badge is a 32px-tall pill, under 1 KB, with no external fonts (system sans-serif). Dark: `#1f2328` background, white text. Light: white background, `#1f2328` text, 1px `#d0d7de` border.
+Each badge is a 32px-tall pill, under 3 KB (VS Code about 5 KB), with no external fonts (system sans-serif). Dark: `#1f2328` background, white text. Light: white background, `#1f2328` text, 1px `#d0d7de` border.
 
 ## Badge URLs
 
@@ -123,6 +139,6 @@ document.querySelector("#add-to-cursor").href = bioflow.links.cursor;
 
 ## Adding an agent
 
-1. Add `("slug", "Label")` to `AGENTS` in [`scripts/gen_badges.py`](../scripts/gen_badges.py) and run it (dark + light SVG land here).
+1. Add `("slug", "Label")` to `AGENTS` in [`scripts/gen_badges.py`](../scripts/gen_badges.py). If the agent's owner publishes an official mark, save the file unchanged as `scripts/badge-marks/<slug>.svg` (plus `<slug>-white.svg` for a dark-background variant) and add its source to `MARKS`. Run the script (dark + light SVG land here).
 2. Add the agent's link or command key to the `links` object in `install-links.json` (add it in [`scripts/gen_install_links.py`](../scripts/gen_install_links.py) and run it so all 14 servers get it).
 3. Add a row to the tables above.
