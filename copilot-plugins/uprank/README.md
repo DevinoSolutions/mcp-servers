@@ -22,7 +22,7 @@ The plugin adds the hosted UpRank MCP server (`https://uprank.devino.ca/api/mcp`
 
 ## Tools
 
-The server lists 17 tools directly: `pipeline_run`, `pipeline_status`, `brand_ingest`, `brand_get`, `topic_research`, `brief_generate`, `article_generate`, `article_score`, `article_revise`, `links_suggest`, `media_select`, `publication_create_draft`, `publication_publish`, `publication_status`, `refresh_list`, `article_get` and `article_list`. Long-running tools return a `workflowRunId` to poll with `pipeline_status`.
+The server defines 17 tools (an OAuth connection sees 16: live publishing, `publication_publish`, needs an API key with the `publication:live` scope): `pipeline_run`, `pipeline_status`, `brand_ingest`, `brand_get`, `topic_research`, `brief_generate`, `article_generate`, `article_score`, `article_revise`, `links_suggest`, `media_select`, `publication_create_draft`, `publication_publish`, `publication_status`, `refresh_list`, `article_get` and `article_list`. Long-running tools return a `workflowRunId` to poll with `pipeline_status`.
 
 ## Skills
 
@@ -32,7 +32,7 @@ The server lists 17 tools directly: `pipeline_run`, `pipeline_status`, `brand_in
 ## Limitations
 
 - It needs network access to uprank.devino.ca and a signed-in UpRank account. There is no offline or self-hosted mode.
-- `publication_create_draft` records a draft publication in UpRank and does not push to a CMS. `publication_publish` needs the `publication:live` scope, which OAuth sign-ins never carry.
+- `publication_create_draft` records a draft publication in UpRank and does not push to a CMS. `publication_publish` needs the `publication:live` scope, which OAuth sign-ins never carry; it is listed only for an API key that holds that scope.
 - UpRank makes no ranking or traffic promises.
 
 ## Links

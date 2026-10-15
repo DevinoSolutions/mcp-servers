@@ -9,7 +9,7 @@ Take a topic from research to a scored article and a draft publication record. E
 
 ## Connecting and calling the tools
 
-Every tool in this skill comes from the `uprank` MCP server, the UpRank connector, and is written here as `uprank:<tool>`. The server lists its tools directly (17 of them), so call them by name.
+Every tool in this skill comes from the `uprank` MCP server, the UpRank connector, and is written here as `uprank:<tool>`. The server lists its tools directly (it defines 17; an OAuth connection sees 16, because `publication_publish` is hidden), so call them by name.
 
 - **"Tool not found" or no `uprank` tools at all:** UpRank is not connected yet. Add the server as shown in https://github.com/DevinoSolutions/mcp-servers/tree/main/uprank#install; it signs in with OAuth on first use, and only a workspace owner can approve the consent screen.
 - **Long-running tools** (`uprank:pipeline_run`, `uprank:article_generate`, `uprank:article_revise`, and similar) return a `workflowRunId`. Poll `uprank:pipeline_status` with it until the run finishes instead of assuming it is done.
@@ -37,6 +37,6 @@ Every tool in this skill comes from the `uprank` MCP server, the UpRank connecto
 ## Rules
 
 - `uprank:publication_create_draft` creates a DRAFT publication record in UpRank. It does not push anything to the CMS. Say so; do not tell the user the article is on their site.
-- Never call `uprank:publication_publish` from this skill. It records a live publication request and needs the `publication:live` scope, which OAuth sign-ins never carry.
+- Never call `uprank:publication_publish` from this skill. It records a live publication request and needs the `publication:live` scope, which OAuth sign-ins never carry; it is listed only for an API key that holds that scope.
 - Do not promise rankings, traffic or search results. UpRank scores quality and traces sources; it does not guarantee how the article performs.
 - Do not invent sources or claims. If a gate fails, report it and offer `uprank:article_revise` (see `reviewing-article-quality`).

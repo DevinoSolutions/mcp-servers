@@ -24,7 +24,7 @@ Or clone the repository and run `agy plugin install ./antigravity-plugins/uprank
 
 ## Tools
 
-The server lists 17 tools directly. Long-running tools return a `workflowRunId` to poll with `pipeline_status`. `publication_create_draft` records a draft publication in UpRank and does not push to a CMS.
+The server defines 17 tools (an OAuth connection sees 16: live publishing, `publication_publish`, needs an API key with the `publication:live` scope). Long-running tools return a `workflowRunId` to poll with `pipeline_status`. `publication_create_draft` records a draft publication in UpRank and does not push to a CMS.
 
 ## Support
 

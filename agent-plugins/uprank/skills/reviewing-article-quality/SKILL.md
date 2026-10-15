@@ -9,7 +9,7 @@ Explain where an article stands against UpRank's 11 scored dimensions and 13 har
 
 ## Connecting and calling the tools
 
-Every tool in this skill comes from the `uprank` MCP server, the UpRank connector, and is written here as `uprank:<tool>`. The server lists its tools directly (17 of them), so call them by name.
+Every tool in this skill comes from the `uprank` MCP server, the UpRank connector, and is written here as `uprank:<tool>`. The server lists its tools directly (it defines 17; an OAuth connection sees 16, because `publication_publish` is hidden), so call them by name.
 
 - **"Tool not found" or no `uprank` tools at all:** UpRank is not connected yet. Add the server as shown in https://github.com/DevinoSolutions/mcp-servers/tree/main/uprank#install; it signs in with OAuth on first use, and only a workspace owner can approve the consent screen.
 - **Long-running tools** (`uprank:pipeline_run`, `uprank:article_generate`, `uprank:article_revise`, and similar) return a `workflowRunId`. Poll `uprank:pipeline_status` with it until the run finishes instead of assuming it is done.

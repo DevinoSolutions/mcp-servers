@@ -61,12 +61,12 @@ The server is remote, so there is nothing to run locally. It signs you in with O
 
 ## Tools
 
-The server lists 17 tools directly: `pipeline_run`, `pipeline_status`, `brand_ingest`, `brand_get`, `topic_research`, `brief_generate`, `article_generate`, `article_score`, `article_revise`, `links_suggest`, `media_select`, `publication_create_draft`, `publication_publish`, `publication_status`, `refresh_list`, `article_get` and `article_list`.
+The server defines 17 tools (an OAuth connection sees 16: live publishing, `publication_publish`, needs an API key with the `publication:live` scope): `pipeline_run`, `pipeline_status`, `brand_ingest`, `brand_get`, `topic_research`, `brief_generate`, `article_generate`, `article_score`, `article_revise`, `links_suggest`, `media_select`, `publication_create_draft`, `publication_publish`, `publication_status`, `refresh_list`, `article_get` and `article_list`.
 
 - Read-only: `pipeline_status`, `brand_get`, `publication_status`, `refresh_list`, `article_get`, `article_list`.
 - Long-running tools return a `workflowRunId`; poll `pipeline_status` with it.
 - `publication_create_draft` creates a DRAFT publication record in UpRank. It does not push to the CMS.
-- `publication_publish` records a live publication request and needs the `publication:live` scope. OAuth sign-ins never carry that scope; only hand-issued tokens can.
+- `publication_publish` records a live publication request and needs the `publication:live` scope. OAuth sign-ins never carry that scope, so it is listed only for an API key that holds it.
 
 ## Skills (Cursor plugin)
 
