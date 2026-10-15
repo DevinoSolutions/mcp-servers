@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "uprank": {
+      "serverUrl": "https://uprank.devino.ca/api/mcp"
+    }
+  }
+}

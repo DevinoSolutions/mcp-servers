@@ -1,0 +1,31 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "uprank",
+  "displayName": "UpRank",
+  "version": "1.0.0",
+  "description": "Research, draft and score evidence-backed articles for your company site in UpRank, with every claim traced to a source and hard quality gates before anything is published.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Research topics for our blog with UpRank",
+    "Run the UpRank pipeline for this topic and show me the scores",
+    "Why did this article fail the quality gates?"
+  ],
+  "category": "Productivity",
+  "keywords": [
+    "uprank",
+    "content",
+    "articles",
+    "seo",
+    "editorial",
+    "mcp",
+    "antigravity"
+  ],
+  "author": {
+    "name": "Devino Solutions",
+    "email": "support@devino.ca",
+    "url": "https://devino.ca"
+  },
+  "homepage": "https://uprank.devino.ca",
+  "repository": "https://github.com/DevinoSolutions/mcp-servers",
+  "license": "MIT"
+}

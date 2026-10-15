@@ -360,6 +360,36 @@
       }
     },
     {
+      "name": "uprank",
+      "displayName": "UpRank",
+      "description": "Research, draft, score and prepare evidence-backed articles for your company site in UpRank, with every claim traced to a source and hard quality gates before anything is published.",
+      "mcpUrl": "https://uprank.devino.ca/api/mcp",
+      "docs": "https://github.com/DevinoSolutions/mcp-servers/tree/main/uprank",
+      "homepage": "https://uprank.devino.ca/agent-setup",
+      "links": {
+        "cursor": "https://cursor.com/install-mcp?name=uprank&config=eyJ1cmwiOiJodHRwczovL3VwcmFuay5kZXZpbm8uY2EvYXBpL21jcCJ9",
+        "cursorDeeplink": "cursor://anysphere.cursor-deeplink/mcp/install?name=uprank&config=eyJ1cmwiOiJodHRwczovL3VwcmFuay5kZXZpbm8uY2EvYXBpL21jcCJ9",
+        "vscode": "https://insiders.vscode.dev/redirect/mcp/install?name=uprank&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fuprank.devino.ca%2Fapi%2Fmcp%22%7D",
+        "vscodeDeeplink": "vscode:mcp/install?%7B%22name%22%3A%22uprank%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fuprank.devino.ca%2Fapi%2Fmcp%22%7D",
+        "kiro": "https://kiro.dev/launch/mcp/add?name=uprank&config=%7B%22url%22%3A%22https%3A%2F%2Fuprank.devino.ca%2Fapi%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D",
+        "replit": "https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6IlVwUmFuayIsImJhc2VVcmwiOiJodHRwczovL3VwcmFuay5kZXZpbm8uY2EvYXBpL21jcCJ9",
+        "claudeDirectory": {
+          "url": "https://claude.ai/directory/uprank",
+          "verified": false
+        },
+        "chatgpt": {
+          "url": null,
+          "verified": false,
+          "note": "not listed yet"
+        },
+        "antigravityCommand": "agy plugin install https://github.com/DevinoSolutions/mcp-servers/antigravity-plugins/uprank",
+        "geminiCliCommand": "gemini extensions install https://github.com/DevinoSolutions/mcp-servers",
+        "claudeCodeCommand": "claude mcp add --transport http uprank https://uprank.devino.ca/api/mcp",
+        "codexToml": "[mcp_servers.uprank]\nurl = \"https://uprank.devino.ca/api/mcp\"\n",
+        "manualUrl": "https://uprank.devino.ca/api/mcp"
+      }
+    },
+    {
       "name": "uptimely",
       "displayName": "Uptimely",
       "description": "Manage uptime monitors, incidents and status pages, and read check results, in Uptimely.",
