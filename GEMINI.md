@@ -20,7 +20,6 @@ A server stays disconnected until the user signs in to that product. Run `/mcp a
 - `superbooks` (SuperBooks): Work with your SuperBooks books: transactions and categories, invoices, customers, receipts, time tracking and financial reports. Docs: https://docs.superbooks.io/mcp
 - `unotes` (uNotes): Search a library of university course materials (past exams, assignments, lab reports, lecture notes) and your uNotes flashcards and quizzes. Docs: https://unotes.net/docs
 - `upapi` (upAPI): Call a catalog of ready-to-use APIs through one upAPI account and key, without signing up for each upstream service. Docs: https://upapi.io/docs/mcp
-- `uprank` (UpRank): Research, draft, score and prepare evidence-backed articles for your company site in UpRank, with every claim traced to a source and hard quality gates before anything is published. Docs: https://uprank.devino.ca/agent-setup
 - `uptimely` (Uptimely): Manage uptime monitors, incidents and status pages, and read check results, in Uptimely. Docs: https://getuptimely.com/integrations
 - `voicelabs` (VoiceLabs): Generate speech from text in your voices and transcribe audio with VoiceLabs. Docs: https://voicelabs.now/mcp
 

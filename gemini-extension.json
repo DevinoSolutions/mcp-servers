@@ -39,9 +39,6 @@
     "upapi": {
       "httpUrl": "https://app.upapi.io/api/mcp"
     },
-    "uprank": {
-      "httpUrl": "https://uprank.devino.ca/api/mcp"
-    },
     "uptimely": {
       "httpUrl": "https://app.getuptimely.com/api/mcp"
     },
