@@ -1,9 +1,0 @@
-{
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
-  "mcpServers": {
-    "uprank": {
-      "type": "streamable-http",
-      "url": "https://uprank.devino.ca/api/mcp"
-    }
-  }
-}
