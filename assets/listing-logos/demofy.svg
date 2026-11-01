@@ -1,0 +1,26 @@
+<!-- The Demofy favicon: the "d" app mark (web/public/demofy-mark.svg — the source of truth,
+     brand round 3, 2026-08-21) on the app's own dark tile. Geometry is verbatim from the locked
+     file; do not redraw. It replaced the emerald pointer glyph (brand round 2) on 2026-08-21.
+
+     The TILE is the fleet convention (BioFlow's icon.svg, uNotes' icon.svg): the mark's glyph is
+     near-white #E3E5E4, invisible on a light tab strip, so it sits on a rounded-square of the app
+     ground — #0A0A0A, the globals.css bg token, repeated here because a favicon is a standalone document
+     the token sheet cannot reach. The tile reads on light AND dark tab strips, which is why no
+     prefers-color-scheme swap is needed inside the file.
+
+     Static SVG rather than a generated icon route: a favicon should never be a build-time render
+     that can fail, and an SVG favicon stays crisp at every size a browser asks for. The raster
+     set (favicon.ico, apple-icon.png, icon/maskable PNGs) is generated FROM this file by
+     scripts/generate-brand-icons.mjs and committed; tests/brandicons.test.ts pins this file's
+     outlines against web/app/components/mark.ts so the two cannot drift.
+
+     Mark placement: scale 3 → 384×378 (75% of the tile), centered: x (512−384)/2 = 64,
+     y (512−378)/2 = 67. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Demofy">
+  <rect width="512" height="512" rx="115" fill="#0A0A0A"/>
+  <g transform="translate(64 67) scale(3)">
+    <path d="M94.6591 6.93709L127.528 38.9214L107.85 38.6096L94.2097 52.7972L94.6591 6.93709Z" fill="#28E097"/>
+    <path d="M55.495 80.3166C57.4596 81.5031 57.4186 84.3663 55.4209 85.496L37.5404 95.6075C35.5263 96.7464 33.0356 95.2731 33.0639 92.9594L33.1898 82.6592L33.3608 72.2166C33.3987 69.9031 35.9306 68.5015 37.9113 69.6977L55.495 80.3166Z" fill="#28E097"/>
+    <path d="M33.5546 124.89C25.2746 122.94 17.2446 118.15 11.1546 111.5C3.42455 103.06 0.804555 96.55 0.174555 84.21C-0.255445 75.97 -0.0154476 74.12 2.32455 67.71C5.70455 58.45 10.8646 51.71 18.6146 46.41C27.0346 40.65 34.2146 38.68 44.9446 39.19C54.3146 39.63 60.5346 41.96 66.5846 47.26L69.9346 50.21V29.1V8H78.9346H87.9346L87.9246 48.25C87.9146 91.41 87.8146 92.38 82.5646 102.75C74.0946 119.45 52.3146 129.29 33.5546 124.89ZM55.6446 105.44C65.2545 100.74 70.9246 90 69.6146 78.94C67.1546 58.16 42.2346 48.79 26.7046 62.82C15.7146 72.75 15.0746 89.44 25.2646 100.51C33.1646 109.1 44.4245 110.93 55.6446 105.44Z" fill="#E3E5E4"/>
+  </g>
+</svg>
